@@ -24,6 +24,7 @@ const initialValues = {
   email: 'admin@demo.com',
   password: 'demo',
 }
+console.log('initialValues',initialValues)
 
 /*
   Formik+YUP+Typescript:

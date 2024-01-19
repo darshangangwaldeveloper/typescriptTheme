@@ -17,8 +17,8 @@ const SignUp = () => {
   const [initValues] = useState<ICreateAccount>(inits)
   const navigate = useNavigate()
 
-  // console.log('initValues',initValues)
-  console.log(initValues)
+  console.log('initValues',initValues)
+  // console.log(initValues)
 
   const loadStepper = () => {
     stepper.current = StepperComponent.createInsance(stepperRef.current as HTMLDivElement)
@@ -51,6 +51,7 @@ const SignUp = () => {
     if (stepper.current.currentStepIndex !== stepper.current.totalStepsNumber) {
       stepper.current.goNext()
     } else {
+      
       stepper.current.goto(1)
       actions.resetForm()
     }
