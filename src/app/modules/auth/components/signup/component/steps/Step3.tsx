@@ -18,6 +18,7 @@ const Step3: FC = () => {
   }
 
   // console.log(errors);
+  console.log(values)
 
   return (
     <div className='w-100'>

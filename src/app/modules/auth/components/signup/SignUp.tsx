@@ -18,7 +18,7 @@ const SignUp = () => {
   const navigate = useNavigate()
 
   console.log('initValues',initValues)
-  // console.log(initValues)
+  console.log(initValues)
 
   const loadStepper = () => {
     stepper.current = StepperComponent.createInsance(stepperRef.current as HTMLDivElement)
